@@ -1,0 +1,1304 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "category": "Furnitures",
+      "title": "Sofa L-Shape",
+      "image": "https://www.course-api.com/images/store/product-2.jpeg",
+      "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum Florem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+      "price": 39999,
+      "old_price": 59999,
+      "quantity_stock": 109,
+      "featured": true,
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "2",
+      "category": "Furnitures",
+      "title": "Chair & Table",
+      "image": "https://www.course-api.com/images/store/product-3.jpeg",
+      "description": "Description 1",
+      "price": 18999,
+      "old_price": 25000,
+      "quantity_stock": 5,
+      "featured": false,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "4",
+      "category": "Furnitures",
+      "title": "Morden Chairs",
+      "image": "https://www.course-api.com/images/store/product-4.jpeg",
+      "description": "Description 1",
+      "price": 20999,
+      "old_price": 30000,
+      "quantity_stock": 4,
+      "featured": true,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "5",
+      "category": "Furnitures",
+      "title": "Dine Table",
+      "image": "https://www.course-api.com/images/store/product-5.jpeg",
+      "description": "Description 1",
+      "price": 52000,
+      "old_price": 65000,
+      "quantity_stock": 6,
+      "featured": false,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "6",
+      "category": "Furnitures",
+      "title": "modren Bed",
+      "image": "https://www.course-api.com/images/store/product-6.jpeg",
+      "description": "Description 1",
+      "price": 42000,
+      "old_price": 55000,
+      "quantity_stock": 6,
+      "featured": true,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "7",
+      "category": "Furnitures",
+      "title": "Wood Cabad",
+      "image": "https://www.course-api.com/images/store/product-7.jpeg",
+      "description": "Description 1",
+      "price": 14000,
+      "old_price": 20000,
+      "quantity_stock": 7,
+      "featured": true,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "8",
+      "category": "Furnitures",
+      "title": "Classic Table and Chair",
+      "image": "https://www.course-api.com/images/store/product-8.jpeg",
+      "description": "Description 1",
+      "price": 16000,
+      "old_price": 20000,
+      "quantity_stock": 7,
+      "featured": true,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "9",
+      "category": "Furnitures",
+      "title": "Sofa Chairs",
+      "image": "https://www.course-api.com/images/store/product-9.jpeg",
+      "description": "Description 1",
+      "price": 18000,
+      "old_price": 25000,
+      "quantity_stock": 7,
+      "featured": false,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "10",
+      "category": "Furnitures",
+      "title": "Small Sofa",
+      "image": "https://www.course-api.com/images/store/product-10.jpeg",
+      "description": "Description 1",
+      "price": 17000,
+      "old_price": 24000,
+      "quantity_stock": 7,
+      "featured": true,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "11",
+      "category": "Furnitures",
+      "title": "Designer Cabads",
+      "image": "https://www.course-api.com/images/store/product-11.jpeg",
+      "description": "Description 1",
+      "price": 27000,
+      "old_price": 35000,
+      "quantity_stock": 7,
+      "featured": true,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "12",
+      "category": "Furnitures",
+      "title": "White Table",
+      "image": "https://www.course-api.com/images/store/product-12.jpeg",
+      "description": "Description 1",
+      "price": 8000,
+      "old_price": 14000,
+      "quantity_stock": 7,
+      "featured": false,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "13",
+      "category": "Furnitures",
+      "title": "Small cabad",
+      "image": "https://www.course-api.com/images/store/product-13.jpeg",
+      "description": "Description 1",
+      "price": 10000,
+      "old_price": 18000,
+      "quantity_stock": 7,
+      "featured": false,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "14",
+      "category": "Furnitures",
+      "title": "Chair",
+      "image": "https://www.course-api.com/images/store/product-14.jpeg",
+      "description": "Description 1",
+      "price": 5999,
+      "old_price": 10000,
+      "quantity_stock": 7,
+      "featured": true,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    },
+    {
+      "id": "15",
+      "category": "Furnitures",
+      "title": "Classic Sofa Set",
+      "image": "https://www.course-api.com/images/store/product-15.jpeg",
+      "description": "Description 1",
+      "price": 52000,
+      "old_price": 65000,
+      "quantity_stock": 7,
+      "featured": true,
+      "created_at": "2023-01-01",
+      "updated_at": "2023-12-27"
+    }
+  ],
+  "categories": [
+    {
+      "id": "f70c26bb-b13a-498b-92e8-8f9d0ebf47f5",
+      "name": "Test",
+      "description": "Test desc updates",
+      "created_at": "2023-12-25",
+      "updated_at": "2023-12-25"
+    },
+    {
+      "id": "f873fde8-3b3b-4f97-bd44-656497fa277e",
+      "name": "Test 2",
+      "description": "Test 2 desc",
+      "created_at": "2023-12-25",
+      "updated_at": "2023-12-25"
+    },
+    {
+      "id": "4c83e7a2-b82f-401c-9728-101337e30677",
+      "name": "Test3",
+      "description": "Test 3 desc",
+      "created_at": "2023-12-25",
+      "updated_at": null
+    }
+  ],
+  "users": [
+    {
+      "id": "664074d4-3fef-423d-97f9-2a5aef0c306f",
+      "role": "customer",
+      "name": "test",
+      "email": "test@test",
+      "phone": "67765",
+      "password": "test",
+      "created_at": "2023-12-21",
+      "updated_at": null
+    },
+    {
+      "id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "role": "customer",
+      "name": "Jagjot kour",
+      "email": "kourjagjot01@gmail.com",
+      "phone": "9682662598",
+      "password": "Jagjot@123",
+      "created_at": "2024-06-01",
+      "updated_at": null
+    }
+  ],
+  "carts": [
+    {
+      "id": "55523533-d833-4473-acdb-94c025b7681c",
+      "user_id": "55523533-d833-4473-acdb-94c025b7681c",
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        },
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "subTotal": 59.97
+        },
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "Smart TV",
+          "price": 29.99,
+          "quantity": 3,
+          "subTotal": 89.97
+        },
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "Smart TV",
+          "price": 29.99,
+          "quantity": 2,
+          "subTotal": 59.98
+        },
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        }
+      ]
+    },
+    {
+      "id": "664074d4-3fef-423d-97f9-2a5aef0c306f",
+      "user_id": "664074d4-3fef-423d-97f9-2a5aef0c306f",
+      "items": []
+    },
+    {
+      "id": "9fbd5ab0-9cc7-4941-ac36-ee6b6dc6a7ca",
+      "user_id": "9fbd5ab0-9cc7-4941-ac36-ee6b6dc6a7ca",
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "subTotal": 59.97
+        }
+      ]
+    },
+    {
+      "id": "ff3f5bdd-9189-4037-b845-0dce9abba617",
+      "user_id": "ff3f5bdd-9189-4037-b845-0dce9abba617",
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        }
+      ]
+    },
+    {
+      "id": "47625a1a-4b4f-4200-b274-43af2c2b8b1c",
+      "user_id": "47625a1a-4b4f-4200-b274-43af2c2b8b1c",
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "subTotal": 59.97
+        },
+        {
+          "id": "2",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        }
+      ]
+    },
+    {
+      "id": "8df84098-c875-4e38-ad06-fad4951d18db",
+      "user_id": "8df84098-c875-4e38-ad06-fad4951d18db",
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 1,
+          "subTotal": 19.99
+        }
+      ]
+    },
+    {
+      "id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "items": []
+    },
+    {
+      "id": "3d6939ef-bc9d-4344-9070-f5ebc8d68c92",
+      "user_id": "3d6939ef-bc9d-4344-9070-f5ebc8d68c92",
+      "items": []
+    },
+    {
+      "id": "63fc8656-d143-49e7-a026-33fb485ac406",
+      "user_id": "63fc8656-d143-49e7-a026-33fb485ac406",
+      "items": []
+    },
+    {
+      "id": "6f72c20a-bc38-4f61-901d-d41ef53d11dd",
+      "user_id": "6f72c20a-bc38-4f61-901d-d41ef53d11dd",
+      "items": []
+    },
+    {
+      "id": "5632ba47-b21b-4773-94c2-03241e0c8755",
+      "user_id": "5632ba47-b21b-4773-94c2-03241e0c8755",
+      "items": []
+    },
+    {
+      "id": "d2441d0f-547f-47a1-9cf3-0687c2a0c4c2",
+      "user_id": "d2441d0f-547f-47a1-9cf3-0687c2a0c4c2",
+      "items": []
+    },
+    {
+      "id": "2d222fa1-2f51-452a-8b54-d6c5c6cbf050",
+      "user_id": "2d222fa1-2f51-452a-8b54-d6c5c6cbf050",
+      "items": []
+    },
+    {
+      "id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "items": [
+        {
+          "id": "4",
+          "image": "https://www.course-api.com/images/store/product-4.jpeg",
+          "title": "Morden Chairs",
+          "price": 20999,
+          "quantity_stock": 4,
+          "quantity": 1,
+          "subTotal": 20999
+        }
+      ]
+    }
+  ],
+  "wishlists": [
+    {
+      "id": "21a2b8a4-4d70-4ab5-a005-fead1280c625",
+      "user_id": "21a2b8a4-4d70-4ab5-a005-fead1280c625",
+      "items": []
+    },
+    {
+      "id": "ff3f5bdd-9189-4037-b845-0dce9abba617",
+      "user_id": "ff3f5bdd-9189-4037-b845-0dce9abba617",
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99
+        }
+      ]
+    },
+    {
+      "id": "47625a1a-4b4f-4200-b274-43af2c2b8b1c",
+      "user_id": "47625a1a-4b4f-4200-b274-43af2c2b8b1c",
+      "items": [
+        {
+          "id": "5",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "Smart TV",
+          "price": 29.99
+        }
+      ]
+    },
+    {
+      "id": "8df84098-c875-4e38-ad06-fad4951d18db",
+      "user_id": "",
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99
+        }
+      ]
+    },
+    {
+      "id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "items": [
+        {
+          "id": "2",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99
+        },
+        {
+          "id": "3",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99
+        },
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99
+        }
+      ]
+    },
+    {
+      "id": "63fc8656-d143-49e7-a026-33fb485ac406",
+      "user_id": "63fc8656-d143-49e7-a026-33fb485ac406",
+      "items": []
+    },
+    {
+      "id": "6f72c20a-bc38-4f61-901d-d41ef53d11dd",
+      "user_id": "6f72c20a-bc38-4f61-901d-d41ef53d11dd",
+      "items": []
+    },
+    {
+      "id": "5632ba47-b21b-4773-94c2-03241e0c8755",
+      "user_id": "5632ba47-b21b-4773-94c2-03241e0c8755",
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99
+        }
+      ]
+    },
+    {
+      "id": "d2441d0f-547f-47a1-9cf3-0687c2a0c4c2",
+      "user_id": "d2441d0f-547f-47a1-9cf3-0687c2a0c4c2",
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99
+        }
+      ]
+    },
+    {
+      "id": "2d222fa1-2f51-452a-8b54-d6c5c6cbf050",
+      "user_id": "2d222fa1-2f51-452a-8b54-d6c5c6cbf050",
+      "items": [
+        {
+          "id": "2",
+          "image": "https://www.course-api.com/images/store/product-3.jpeg",
+          "title": "Chair & Table",
+          "price": 19.99
+        },
+        {
+          "id": "4",
+          "image": "https://www.course-api.com/images/store/product-4.jpeg",
+          "title": "Morden Chairs",
+          "price": 19.99
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "878c2954-fc09-4083-8109-0f1ac259711b",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "123 street",
+      "name": "Badr",
+      "order_status": "shipped",
+      "created_at": "2023-12-23",
+      "description": "order n° ",
+      "order_total": 19.99,
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 1,
+          "subTotal": 19.99
+        }
+      ]
+    },
+    {
+      "id": "bca65ac5-8ed5-443b-b524-b52a4436cf0e",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "123 street",
+      "name": "Badr",
+      "order_status": "pending",
+      "created_at": "2023-12-23",
+      "description": "order n° ",
+      "order_total": 139.94,
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 1,
+          "subTotal": 19.99
+        },
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "subTotal": 59.97
+        },
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "Smart TV",
+          "price": 29.99,
+          "quantity": 2,
+          "subTotal": 59.98
+        }
+      ]
+    },
+    {
+      "id": "785c7af1-57ff-4a78-a07b-60bd59fb587a",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "123 street",
+      "name": "Badr",
+      "order_status": "delivered",
+      "created_at": "2023-12-23",
+      "description": "order n° 785c7af1-57ff-4a78-a07b-60bd59fb587a",
+      "order_total": 129.95,
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        },
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "Smart TV",
+          "price": 29.99,
+          "quantity": 3,
+          "subTotal": 89.97
+        }
+      ]
+    },
+    {
+      "id": "1ab77f07-cb28-424f-a361-580e2083614a",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "zkzk",
+      "name": "kzkz",
+      "order_status": "delivered",
+      "created_at": "2023-12-23",
+      "description": "order n° 1ab77f07-cb28-424f-a361-580e2083614a",
+      "order_total": 39.98,
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        }
+      ]
+    },
+    {
+      "id": "2d2367bb-9954-4f28-b156-4ec0bc452081",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "zhzh",
+      "name": "zhzhz",
+      "order_status": "delivered",
+      "created_at": "2023-12-23",
+      "description": "order n° 2d2367bb-9954-4f28-b156-4ec0bc452081",
+      "order_total": 39.98,
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        }
+      ]
+    },
+    {
+      "id": "8611fe39-f813-4467-bb6f-1a0893b5b0cc",
+      "user_id": "5632ba47-b21b-4773-94c2-03241e0c8755",
+      "shipping_address": "badr street",
+      "name": "Badr",
+      "order_status": "pending",
+      "created_at": "2023-12-25",
+      "description": "order n° 8611fe39-f813-4467-bb6f-1a0893b5b0cc",
+      "order_total": 59.97,
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "subTotal": 59.97
+        }
+      ]
+    },
+    {
+      "id": "a5ad4ec0-af02-495f-89b3-60cf56432114",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "123 street",
+      "name": "Badr Moslih",
+      "phone": "865568",
+      "order_status": "delivered",
+      "created_at": "2023-12-25",
+      "description": "order n° a5ad4ec0-af02-495f-89b3-60cf56432114",
+      "order_total": 299.97,
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "subTotal": 59.97
+        },
+        {
+          "title": "Test Pro",
+          "price": "120",
+          "quantity": 2,
+          "subTotal": 240
+        }
+      ]
+    },
+    {
+      "id": "b39672c0-a440-437e-bad7-d91922e33c48",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "123 street",
+      "name": "Badr Moslih",
+      "phone": "8763383",
+      "order_status": "delivered",
+      "created_at": "2023-12-25",
+      "description": "order n° b39672c0-a440-437e-bad7-d91922e33c48",
+      "order_total": 119.94999999999999,
+      "delivery_company": "Ozone",
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "subTotal": 59.97
+        },
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        }
+      ]
+    },
+    {
+      "id": "706fbdbc-14fc-4397-aa53-9998a507adbc",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "Test 123",
+      "name": "Test",
+      "phone": "76",
+      "order_status": "delivered",
+      "created_at": "2023-12-25",
+      "description": "order n° 706fbdbc-14fc-4397-aa53-9998a507adbc",
+      "order_total": 69.97999999999999,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        }
+      ]
+    },
+    {
+      "id": "9e42c219-6ded-49a8-8776-43a040000d26",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "123 refresh",
+      "name": "Test Refresh",
+      "phone": "7867896",
+      "order_status": "delivered",
+      "created_at": "2023-12-25",
+      "description": "order n° 9e42c219-6ded-49a8-8776-43a040000d26",
+      "order_total": 99.96,
+      "delivery_company": "Ozone",
+      "delivery_coast": 20,
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 4,
+          "subTotal": 79.96
+        }
+      ]
+    },
+    {
+      "id": "9787dd00-2e7f-4da7-8f71-c67dd8de7a58",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "123 street",
+      "name": "Badr",
+      "phone": "7645",
+      "order_status": "pending",
+      "created_at": "2023-12-26",
+      "description": "order n° 9787dd00-2e7f-4da7-8f71-c67dd8de7a58",
+      "order_total": 69.97999999999999,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        }
+      ]
+    },
+    {
+      "id": "2ccbdc61-4852-485c-bef1-f97dc2aca968",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "123 street",
+      "name": "Badr",
+      "phone": "7676",
+      "order_status": "pending",
+      "created_at": "2023-12-26",
+      "description": "order n° 2ccbdc61-4852-485c-bef1-f97dc2aca968",
+      "order_total": 59.98,
+      "delivery_company": "Ozone",
+      "delivery_coast": 20,
+      "items": [
+        {
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        }
+      ]
+    },
+    {
+      "id": "a22fb555-2629-45cd-bec2-ec33178f2d23",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "123 street",
+      "name": "Badr",
+      "phone": "7676",
+      "order_status": "delivered",
+      "created_at": "2023-12-26",
+      "description": "order n° a22fb555-2629-45cd-bec2-ec33178f2d23",
+      "order_total": 89.97,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "2",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "subTotal": 59.97
+        }
+      ]
+    },
+    {
+      "id": "bb9dabd5-2297-4118-9b65-8a3ac7a83066",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "1234 street",
+      "name": "Badr",
+      "phone": "78668",
+      "order_status": "pending",
+      "created_at": "2023-12-26",
+      "description": "order n° bb9dabd5-2297-4118-9b65-8a3ac7a83066",
+      "order_total": 109.96,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 4,
+          "subTotal": 79.96
+        }
+      ]
+    },
+    {
+      "id": "551abd5b-5dd9-4b8b-8f69-9d5f0e387139",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "123 test",
+      "name": "Badr",
+      "phone": "76576",
+      "order_status": "pending",
+      "created_at": "2023-12-26",
+      "description": "order n° 551abd5b-5dd9-4b8b-8f69-9d5f0e387139",
+      "order_total": 69.97999999999999,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 2,
+          "subTotal": 39.98
+        }
+      ]
+    },
+    {
+      "id": "89068453-fd49-450e-8544-559df9166f3a",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "321 street",
+      "name": "Badr",
+      "phone": "765356",
+      "order_status": "pending",
+      "created_at": "2023-12-26",
+      "description": "order n° 89068453-fd49-450e-8544-559df9166f3a",
+      "order_total": 109.96,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 4,
+          "subTotal": 79.96
+        }
+      ]
+    },
+    {
+      "id": "4b61eaf1-9d25-4856-9fe2-858544e56a03",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "312 test",
+      "name": "test",
+      "phone": "76546",
+      "order_status": "pending",
+      "created_at": "2023-12-26",
+      "description": "order n° 4b61eaf1-9d25-4856-9fe2-858544e56a03",
+      "order_total": 109.96,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 4,
+          "subTotal": 79.96
+        }
+      ]
+    },
+    {
+      "id": "f6556532-81f4-4ac0-ba75-913916ab218d",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "hhh 312",
+      "name": "hhh",
+      "phone": "7685",
+      "order_status": "pending",
+      "created_at": "2023-12-26",
+      "description": "order n° f6556532-81f4-4ac0-ba75-913916ab218d",
+      "order_total": 89.97,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "subTotal": 59.97
+        }
+      ]
+    },
+    {
+      "id": "ab147312-98bb-4707-8ccd-7f5ab1dba1e3",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "iduhz 76",
+      "name": "bsabas",
+      "phone": "76576",
+      "order_status": "pending",
+      "created_at": "2023-12-26",
+      "description": "order n° ab147312-98bb-4707-8ccd-7f5ab1dba1e3",
+      "order_total": 89.97,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "2",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "subTotal": 59.97
+        }
+      ]
+    },
+    {
+      "id": "897cc9a7-352a-481d-b629-5db90b80730c",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "312 last",
+      "name": "last test",
+      "phone": "7676",
+      "order_status": "pending",
+      "created_at": "2023-12-27",
+      "description": "order n° 897cc9a7-352a-481d-b629-5db90b80730c",
+      "order_total": 89.97,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "2",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "subTotal": 59.97
+        }
+      ]
+    },
+    {
+      "id": "4562a373-4a6b-41cf-b6ca-f19e59f28cea",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "is the last one inchaallah",
+      "name": "this time ",
+      "phone": "876785",
+      "order_status": "pending",
+      "created_at": "2023-12-27",
+      "description": "order n° 4562a373-4a6b-41cf-b6ca-f19e59f28cea",
+      "order_total": 89.97,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "quantity_stock": "120",
+          "subTotal": 59.97
+        }
+      ]
+    },
+    {
+      "id": "40beb34b-9f9c-4dac-b0ad-4fa92eb708d0",
+      "user_id": "a88cce76-f799-4cd6-b86f-818b04632aed",
+      "shipping_address": "kjh",
+      "name": "hjk",
+      "phone": "987",
+      "order_status": "pending",
+      "created_at": "2023-12-27",
+      "description": "order n° 40beb34b-9f9c-4dac-b0ad-4fa92eb708d0",
+      "order_total": 89.97,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "2",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "quantity_stock": "10",
+          "subTotal": 59.97
+        }
+      ]
+    },
+    {
+      "id": "6975a44e-52c6-4359-8687-afd92c288482",
+      "user_id": "d2441d0f-547f-47a1-9cf3-0687c2a0c4c2",
+      "shipping_address": "213 street",
+      "name": "Badr",
+      "phone": "7656",
+      "order_status": "delivered",
+      "created_at": "2023-12-28",
+      "description": "order n° 6975a44e-52c6-4359-8687-afd92c288482",
+      "order_total": 79.97,
+      "delivery_company": "Ozone",
+      "delivery_coast": 20,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-8.jpeg",
+          "title": "iPhone 14",
+          "price": 19.99,
+          "quantity": 3,
+          "quantity_stock": 117,
+          "subTotal": 59.97
+        }
+      ]
+    },
+    {
+      "id": "0c905647-8b60-48cf-a568-f07a40c875f7",
+      "user_id": "2d222fa1-2f51-452a-8b54-d6c5c6cbf050",
+      "shipping_address": "",
+      "name": "",
+      "phone": "",
+      "order_status": "delivered",
+      "created_at": "2024-05-13",
+      "description": "order n° 0c905647-8b60-48cf-a568-f07a40c875f7",
+      "order_total": 69.97999999999999,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "4",
+          "image": "https://www.course-api.com/images/store/product-4.jpeg",
+          "title": "Morden Chairs",
+          "price": 19.99,
+          "quantity": 1,
+          "quantity_stock": 7,
+          "subTotal": 19.99
+        },
+        {
+          "id": "2",
+          "image": "https://www.course-api.com/images/store/product-3.jpeg",
+          "title": "Chair & Table",
+          "price": 19.99,
+          "quantity": 1,
+          "quantity_stock": 7,
+          "subTotal": 19.99
+        }
+      ]
+    },
+    {
+      "id": "187415e2-3e04-472c-9590-9c54afc4c828",
+      "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "shipping_address": "simbal camp",
+      "name": "Jagjot kour",
+      "phone": "9682662598",
+      "order_status": "delivered",
+      "created_at": "2024-06-01",
+      "description": "order n° 187415e2-3e04-472c-9590-9c54afc4c828",
+      "order_total": 40029,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-2.jpeg",
+          "title": "Sofa L-Shape",
+          "price": 39999,
+          "quantity": 1,
+          "quantity_stock": 114,
+          "subTotal": 39999
+        }
+      ]
+    },
+    {
+      "id": "56776ed7-2e43-4a3b-87e1-d9961a9e34b9",
+      "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "shipping_address": "simbal camp",
+      "name": "Jagjot kour",
+      "phone": "9682662598",
+      "order_status": "delivered",
+      "created_at": "2024-06-01",
+      "description": "order n° 56776ed7-2e43-4a3b-87e1-d9961a9e34b9",
+      "order_total": 94030,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "6",
+          "image": "https://www.course-api.com/images/store/product-6.jpeg",
+          "title": "modren Bed",
+          "price": 42000,
+          "quantity": 1,
+          "quantity_stock": 7,
+          "subTotal": 42000
+        },
+        {
+          "id": "5",
+          "image": "https://www.course-api.com/images/store/product-5.jpeg",
+          "title": "Dine Table",
+          "price": 52000,
+          "quantity": 1,
+          "quantity_stock": 7,
+          "subTotal": 52000
+        }
+      ]
+    },
+    {
+      "id": "af585a19-2076-4f28-8994-4edb5bc2e053",
+      "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "shipping_address": "simbal camp",
+      "name": "Jagjot kour",
+      "phone": "9682662598",
+      "order_status": "delivered",
+      "created_at": "2024-06-03",
+      "description": "order n° af585a19-2076-4f28-8994-4edb5bc2e053",
+      "order_total": 40029,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-2.jpeg",
+          "title": "Sofa L-Shape",
+          "price": 39999,
+          "quantity": 1,
+          "quantity_stock": 114,
+          "subTotal": 39999
+        }
+      ]
+    },
+    {
+      "id": "a18068f0-d2b3-4e42-80c9-0690a9924aa3",
+      "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "shipping_address": "simbal camp",
+      "name": "Jagjot kour",
+      "phone": "9682662598",
+      "order_status": "delivered",
+      "created_at": "2024-06-04",
+      "description": "order n° a18068f0-d2b3-4e42-80c9-0690a9924aa3",
+      "order_total": 80028,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-2.jpeg",
+          "title": "Sofa L-Shape",
+          "price": 39999,
+          "quantity": 2,
+          "quantity_stock": 114,
+          "subTotal": 79998
+        }
+      ]
+    },
+    {
+      "id": "98e1eaa6-b17d-43f3-a6f0-d08a6fa89b98",
+      "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "shipping_address": "",
+      "name": "",
+      "phone": "",
+      "order_status": "delivered",
+      "created_at": "2024-06-04",
+      "description": "order n° 98e1eaa6-b17d-43f3-a6f0-d08a6fa89b98",
+      "order_total": 40029,
+      "delivery_company": "Amana",
+      "delivery_coast": 30,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-2.jpeg",
+          "title": "Sofa L-Shape",
+          "price": 39999,
+          "quantity": 1,
+          "quantity_stock": 112,
+          "subTotal": 39999
+        }
+      ]
+    },
+    {
+      "id": "232e41c8-a6db-46ce-bbff-e5363f74e90e",
+      "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "shipping_address": "House No.356 Opp.community Hall",
+      "name": "Mohan Lal",
+      "phone": "8684832207",
+      "order_status": "pending",
+      "created_at": "2024-06-05",
+      "description": "order n° 232e41c8-a6db-46ce-bbff-e5363f74e90e",
+      "order_total": 21029,
+      "delivery_company": "Amana",
+      "delivery_cost": 30,
+      "items": [
+        {
+          "id": "4",
+          "image": "https://www.course-api.com/images/store/product-4.jpeg",
+          "title": "Morden Chairs",
+          "price": 20999,
+          "quantity": 1,
+          "quantity_stock": 6,
+          "subTotal": 20999
+        }
+      ]
+    },
+    {
+      "id": "afc571ef-842c-4676-ab68-3a215ab1d2da",
+      "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "shipping_address": "House No.356 Opp.community Hall",
+      "name": "Mohan Lal",
+      "phone": "8684832207",
+      "order_status": "pending",
+      "created_at": "2024-06-05",
+      "description": "order n° afc571ef-842c-4676-ab68-3a215ab1d2da",
+      "order_total": 21029,
+      "delivery_company": "Amana",
+      "delivery_cost": 30,
+      "items": [
+        {
+          "id": "4",
+          "image": "https://www.course-api.com/images/store/product-4.jpeg",
+          "title": "Morden Chairs",
+          "price": 20999,
+          "quantity": 1,
+          "quantity_stock": 5,
+          "subTotal": 20999
+        }
+      ]
+    },
+    {
+      "id": "c9456bb8-a742-40cf-b709-b6e787c6622c",
+      "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "shipping_address": "House No.356 Opp.community Hall",
+      "name": "Mohan Lal",
+      "phone": "8684832207",
+      "order_status": "pending",
+      "created_at": "2024-06-05",
+      "description": "order n° c9456bb8-a742-40cf-b709-b6e787c6622c",
+      "order_total": 80028,
+      "delivery_company": "Amana",
+      "delivery_cost": 30,
+      "items": [
+        {
+          "id": "1",
+          "image": "https://www.course-api.com/images/store/product-2.jpeg",
+          "title": "Sofa L-Shape",
+          "price": 39999,
+          "quantity": 2,
+          "quantity_stock": 111,
+          "subTotal": 79998
+        }
+      ]
+    },
+    {
+      "id": "0889bf60-2ea7-455b-be7d-3c4aa751d739",
+      "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
+      "shipping_address": "House No.356 Opp.community Hall",
+      "name": "Mohan Lal",
+      "phone": "8684832207",
+      "order_status": "pending",
+      "created_at": "2024-06-05",
+      "description": "order n° 0889bf60-2ea7-455b-be7d-3c4aa751d739",
+      "order_total": 19029,
+      "delivery_company": "Amana",
+      "delivery_cost": 30,
+      "items": [
+        {
+          "id": "2",
+          "image": "https://www.course-api.com/images/store/product-3.jpeg",
+          "title": "Chair & Table",
+          "price": 18999,
+          "quantity": 1,
+          "quantity_stock": 6,
+          "subTotal": 18999
+        }
+      ]
+    }
+  ]
+}
