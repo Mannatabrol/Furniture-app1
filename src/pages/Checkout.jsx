@@ -33,38 +33,28 @@ function loadScript(src) {
 const Checkout = () => {
   const { cart, clearCart } = useContext(CartContext);
   const { userID, isAuthenticated } = useContext(AuthContext);
-
-  const [shippingAddress, setShippingAddress] = useState('');
-  const [name, setName] = useState('');
-  const [phone, setPhone] = useState('');
   const [orderID, setOrderID] = useState('');
   const [success, setSuccess] = useState(false);
   const [selectedDeliveryOption, setSelectedDeliveryOption] = useState('amana');
-  const [errors, setErrors] = useState({});
   const navigate = useNavigate();
 
-  // Redirect to login if the user is not authenticated
   useEffect(() => {
     if (!isAuthenticated || cart.items.length === 0) {
       navigate('/cart');
     }
   }, [isAuthenticated, cart]);
 
-  const createOrder = async () => {
+  const createOrder = async (values) => {
     try {
-      if (cart.items.length === 0) {
-        throw new Error('No items in the cart. Please fill your cart to make an order.');
-      }
-
       const orderId = generateUUID();
       const deliveryOption = deliveryOptions[selectedDeliveryOption];
 
       const order = {
         id: orderId,
         user_id: userID,
-        shipping_address: shippingAddress,
-        name: name,
-        phone: phone,
+        shipping_address: values.shippingAddress,
+        name: values.name,
+        phone: values.phone,
         order_status: 'pending',
         created_at: currentDate(),
         description: `order n° ${orderId}`,
@@ -80,7 +70,7 @@ const Checkout = () => {
           quantity_stock: item.quantity_stock,
           subTotal: item.price * item.quantity,
         })),
-      };  
+      };
 
       const response = await axios.post('http://localhost:3001/orders', order);
       return response.data.id;
@@ -90,33 +80,22 @@ const Checkout = () => {
     }
   };
 
-  // Update product quantity in stock
   const updateProductStock = async () => {
     try {
       for (const item of cart.items) {
         const updatedStock = parseInt(item.quantity_stock) - parseInt(item.quantity);
         await axios.patch(`http://localhost:3001/products/${item.id}`, { quantity_stock: updatedStock });
-        console.log(updatedStock);
-        console.log(item.id);
-        console.log(item.quantity);
-        console.log(item.quantity_stock);
       }
     } catch (error) {
       console.error('Error updating product stock:', error);
     }
   };
 
-  const handleOrderPlace = async () => {
-    const validationErrors = validateInputs();
-    if (Object.keys(validationErrors).length > 0) {
-      setErrors(validationErrors);
-      return;
-    }
-
+  const handleOrderPlace = async (values) => {
     try {
-      const orderId = await createOrder();
+      const orderId = await createOrder(values);
       await updateProductStock();
-      clearCart(); // Clear the cart here
+      clearCart();
       setOrderID(orderId);
       setSuccess(true);
 
@@ -160,16 +139,14 @@ const Checkout = () => {
   const subTotal = cart.items.reduce((total, item) => total + item.subTotal, 0);
   const totalOrder = subTotal + deliveryOptions[selectedDeliveryOption].cost;
 
-  const showRazorpay = async () => {
-    const res = await loadScript(
-      "https://checkout.razorpay.com/v1/checkout.js"
-    );
-  
+  const showRazorpay = async (values) => {
+    const res = await loadScript("https://checkout.razorpay.com/v1/checkout.js");
+
     if (!res) {
       alert("Razorpay SDK failed to load. Are you online?");
       return;
     }
-  
+
     const data = await fetch("http://localhost:1337/razorpay", {
       method: "POST",
       headers: {
@@ -177,16 +154,16 @@ const Checkout = () => {
       },
       body: JSON.stringify({
         Amount: totalOrder * 100,
-        Name: name
+        Name: values.name
       })
     }).then((t) => t.json());
-  
+
     const options = {
       key: "rzp_test_MRvRAK22kZpeog",
       currency: data.currency,
       amount: data.amount.toString(),
       order_id: data.id,
-      name: name,
+      name: values.name,
       description: "Thank you for nothing. Please give us some money",
       image: "http://localhost:1337/logo.svg",
       handler: function (response) {
@@ -196,41 +173,42 @@ const Checkout = () => {
           showConfirmButton: true,
         }).then((result) => {
           if (result.isConfirmed) {
-            clearCart(); // Clear the cart
-            navigate('/cart'); // Redirect to the cart page
+            clearCart();
+            navigate('/cart');
           }
         });
       },
       prefill: {
-        name: name,
+        name: values.name,
         email: userID,
-        phone_number: phone,
+        phone_number: values.phone,
       },
     };
     const paymentObject = new window.Razorpay(options);
     paymentObject.open();
   };
-  
-  
-
 
   return (
-    <div className='container px-4 '>
+    <div className='container px-4'>
       <Breadcrumb />
       <Title>Checkout</Title>
       <div className="row">
         <div className="col-md-6 mt-5">
-           <Formik
+          <Formik
             initialValues={{
               name: '',
               phone: '',
               shippingAddress: '',
             }}
             validationSchema={validationSchema}
-            onSubmit={handleOrderPlace}
+            onSubmit={async (values, { setSubmitting }) => {
+              await handleOrderPlace(values);
+              await showRazorpay(values);
+              setSubmitting(false);
+            }}
           >
-            {({ isSubmitting }) => (
-              <Form className='mt-5'>
+            {({ isSubmitting, isValid, handleSubmit }) => (
+              <Form className='mt-5' onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">Full Name:</label>
                   <Field type="text" className="form-control" id="name" name="name" />
@@ -248,7 +226,16 @@ const Checkout = () => {
                   <Field type="text" className="form-control" id="shippingAddress" name="shippingAddress" />
                   <ErrorMessage name="shippingAddress" component="div" className="text-danger" />
                 </div>
-              
+
+                <div className="card-footer text-center">
+                  {success ? (
+                    <Button handleClick={handleOrderDelivered}>I received my order</Button>
+                  ) : (
+                    <Button type="submit" className="my-3 px-4" disabled={isSubmitting || !isValid}>
+                      Place Order
+                    </Button>
+                  )}
+                </div>
               </Form>
             )}
           </Formik>
@@ -302,21 +289,12 @@ const Checkout = () => {
                 <label className="form-check-label" htmlFor="deliveryOzone">Delivery by Ozone 48h: 20.00 ₹</label>
               </div>
             </div>
-            <div className="card-footer text-center">
-              {success ? (
-                <Button handleClick={handleOrderDelivered}>I received my order</Button>
-              ) : (
-                <Button type="submit" className="my-3 px-4" handleClick={showRazorpay}>
-                  Place Order
-                </Button>
-              )}
-            </div>
           </div>
         </div>
       </div>
     </div>
   );
-  
 };
 
 export default Checkout;
+
