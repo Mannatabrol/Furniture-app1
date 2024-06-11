@@ -11,7 +11,7 @@ const FeaturedProducts = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/products");
+        const response = await axios.get("https://backend-furniture-ky40.onrender.com/products");
         const allProducts = response.data;
         const featuredProducts = allProducts.filter(product => product.featured === true);
         setFeaturedProducts(featuredProducts);

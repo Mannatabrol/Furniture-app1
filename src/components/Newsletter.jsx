@@ -52,7 +52,7 @@ const Newsletter = () => {
   const handleSubmit = async (event) => {
     event.preventDefault()
     if (email) {
-      await axios.post('http://localhost:3000/newsletter', { email })
+      await axios.post('https://backend-furniture-ky40.onrender.com/newsletter', { email })
       setEmail('')
       Swal.fire({
         icon: 'success',

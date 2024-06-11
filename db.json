@@ -225,6 +225,26 @@
       "password": "Jagjot@123",
       "created_at": "2024-06-01",
       "updated_at": null
+    },
+    {
+      "id": "2d4f46fa-b109-4306-9cfd-ac47f5d9a960",
+      "role": "customer",
+      "name": "Mannat Abrol",
+      "email": "mannatabrol28@gmail.com",
+      "phone": "07889780899",
+      "password": "mannat080abrol",
+      "created_at": "2024-06-11",
+      "updated_at": null
+    },
+    {
+      "id": "c35a233d-89eb-4e05-8519-9b43bd5809b4",
+      "role": "customer",
+      "name": "Mannat Abrol",
+      "email": "abrolmannat08@gmail.com",
+      "phone": "7889780899",
+      "password": "123",
+      "created_at": "2024-06-11",
+      "updated_at": null
     }
   ],
   "carts": [
@@ -377,6 +397,35 @@
       "id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
       "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
       "items": []
+    },
+    {
+      "id": "2d4f46fa-b109-4306-9cfd-ac47f5d9a960",
+      "user_id": "2d4f46fa-b109-4306-9cfd-ac47f5d9a960",
+      "items": [
+        {
+          "id": "6",
+          "image": "https://www.course-api.com/images/store/product-6.jpeg",
+          "title": "modren Bed",
+          "price": 42000,
+          "quantity_stock": 6,
+          "quantity": 1,
+          "subTotal": 42000
+        },
+        {
+          "id": "2",
+          "image": "https://www.course-api.com/images/store/product-3.jpeg",
+          "title": "Chair & Table",
+          "price": 18999,
+          "quantity_stock": 5,
+          "quantity": 1,
+          "subTotal": 18999
+        }
+      ]
+    },
+    {
+      "id": "c35a233d-89eb-4e05-8519-9b43bd5809b4",
+      "user_id": "c35a233d-89eb-4e05-8519-9b43bd5809b4",
+      "items": []
     }
   ],
   "wishlists": [
@@ -496,6 +545,16 @@
           "price": 19.99
         }
       ]
+    },
+    {
+      "id": "2d4f46fa-b109-4306-9cfd-ac47f5d9a960",
+      "user_id": "2d4f46fa-b109-4306-9cfd-ac47f5d9a960",
+      "items": []
+    },
+    {
+      "id": "c35a233d-89eb-4e05-8519-9b43bd5809b4",
+      "user_id": "c35a233d-89eb-4e05-8519-9b43bd5809b4",
+      "items": []
     }
   ],
   "orders": [
