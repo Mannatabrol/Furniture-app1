@@ -376,17 +376,7 @@
     {
       "id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
       "user_id": "6e64b6ae-ea40-45c4-a582-76e580d5467f",
-      "items": [
-        {
-          "id": "4",
-          "image": "https://www.course-api.com/images/store/product-4.jpeg",
-          "title": "Morden Chairs",
-          "price": 20999,
-          "quantity_stock": 4,
-          "quantity": 1,
-          "subTotal": 20999
-        }
-      ]
+      "items": []
     }
   ],
   "wishlists": [
